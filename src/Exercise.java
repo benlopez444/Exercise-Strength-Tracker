@@ -32,4 +32,5 @@ public class Exercise {
     public int getSize(){
         return this.entries.size();
     }
+
 }
