@@ -17,7 +17,7 @@ public class Exercise {
     //display all entries of this exercise
     @Override
     public String toString(){
-        String allentries = "";
+        String allentries = name + "\n";
         int num = 1;
         for(Entry e: this.entries){
             allentries += num + ". " + e.toString() + "\n";
