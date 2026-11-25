@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Main{
+    private static WorkoutManager wm = new WorkoutManager();
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         while(true){
@@ -21,6 +22,7 @@ public class Main{
                 Exercise e = new Exercise(name);
                 Entry e1 = new Entry(date,sets,reps,weight);
                 e.add(e1);
+                wm.addExercise(e);
                 System.out.println("Exercise Added Successfully");
             }
         }
