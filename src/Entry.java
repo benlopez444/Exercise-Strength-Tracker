@@ -29,6 +29,9 @@ public class Entry {
     public String toString(){
         return "Date: " + date + " | " + reps + " reps | " + sets + " sets | " + weight + " lbs";
     }
+    public String csvString(){
+        return date + "," +  sets + "," + reps + "," + weight;
+    }
 
 
 }

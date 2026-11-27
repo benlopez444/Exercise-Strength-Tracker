@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 public class Exercise {
     private String name;
     private ArrayList<Entry> entries;
